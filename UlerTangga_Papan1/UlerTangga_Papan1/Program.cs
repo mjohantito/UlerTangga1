@@ -49,16 +49,22 @@ namespace UlarTangga_Papan1
                         else if (k == 1)
                         {
                             Console.Write(kotak[nomorkotak - 1] + " ");
+                            Console.ForegroundColor = ConsoleColor.Blue;
                             Console.Write("1" + " ");
+                            Console.ForegroundColor = ConsoleColor.Red;
                             Console.Write("2" + " ");
+                            Console.ResetColor();
                             Console.Write(kotak[nomorkotak - 1] + "   ");
 
                         }
                         else if (k == 2)
                         {
                             Console.Write(kotak[nomorkotak - 1] + " ");
+                            Console.ForegroundColor = ConsoleColor.Yellow;
                             Console.Write("3" + " ");
+                            Console.ForegroundColor = ConsoleColor.Green;
                             Console.Write("4" + " ");
+                            Console.ResetColor();
                             Console.Write(kotak[nomorkotak - 1] + "   ");
 
                         }
